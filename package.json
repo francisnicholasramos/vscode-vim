@@ -1,0 +1,25 @@
+{
+	"name": "niko",
+	"displayName": "vscode-vim",
+	"description": "A custom theme inspired to Monokai and One Dark themes.",
+	"version": "1.0.0",
+	"publisher": "francisnicholasramos",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Vim's One Dark for vscode",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vscode-vim.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 14568
+	}
+}
