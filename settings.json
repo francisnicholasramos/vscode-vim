@@ -1,0 +1,40 @@
+            // Hide everything on sidebar except from Explorer & Accounts
+{
+    "workbench.colorTheme": "Vim's One Dark for vscode", // my custom theme
+    "window.title": "Niko", // my nickaname on window title
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+
+    "files.autoSave": "afterDelay",
+
+    "editor.fontFamily": "Consolas",
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 14.2,
+    "editor.cursorStyle": "line",
+
+
+    "breadcrumbs.enabled": false, // disable path file view
+    "editor.stickyScroll.enabled": false, // custom
+    "editor.minimap.enabled": false, // press ALT to view menu bar
+    "window.commandCenter": false, // no search command center on window tab
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    // "workbench.statusBar.visible": false, // Optional 
+    
+    // Terminal Customization
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "glassit.alpha": 255,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+}
+
